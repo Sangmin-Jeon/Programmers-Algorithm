@@ -19,7 +19,7 @@ while(num > 0){ // 3진법으로 변환
 // stride() arr.count -1 부터 -1까지(-1은 포함 안됨), -1씩
 for i in stride(from: arr.count-1, to: -1, by: -1){
    result = result + arr[i] * count // count의 초기값은 1
-   count =  count * 3 // 3제곱근
+   count *= 3 // 3제곱근
 
 }
 print(result)
